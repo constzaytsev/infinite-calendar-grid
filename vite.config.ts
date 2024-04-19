@@ -5,6 +5,9 @@ import dts from "vite-plugin-dts"
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue(), dts()],
+  define: {
+    __VUE_PROD_HYDRATION_MISMATCH_DETAILS__: false
+  },
   build: {
     lib: {
       entry: "./src/index.ts",
