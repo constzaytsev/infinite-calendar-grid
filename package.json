@@ -3,7 +3,7 @@
   "description": "Infinite calendar grid component for Vue",
   "author": "Konstantin Zaytsev <zaytsev.const@gmail.com> (https://github.com/constzaytsev)",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "main": "./dist/infinite-calendar-grid.umd.cjs",
   "module": "./dist/infinite-calendar-grid.js",
