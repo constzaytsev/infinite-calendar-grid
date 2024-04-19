@@ -12,7 +12,8 @@
     ".": {
       "import": "./dist/infinite-calendar-grid.js",
       "require": "./dist/infinite-calendar-grid.umd.cjs"
-    }
+    },
+    "./style.css": "./dist/style.css"
   },
   "files": [
     "dist",
@@ -24,8 +25,8 @@
     "preview": "vite preview"
   },
   "peerDependencies": {
-    "dayjs": "^1.0.0",
-    "vue": "^3.0.0"
+    "dayjs": "^1.11.0",
+    "vue": "^3.2.22"
   },
   "dependencies": {
     "dayjs": "^1.11.10",
