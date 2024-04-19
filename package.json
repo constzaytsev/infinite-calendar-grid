@@ -1,0 +1,42 @@
+{
+  "name": "infinite-calendar-grid",
+  "description": "Infinite calendar grid component for Vue",
+  "author": "Konstantin Zaytsev <zaytsev.const@gmail.com> (https://github.com/constzaytsev)",
+  "private": false,
+  "version": "0.0.1",
+  "type": "module",
+  "main": "./dist/infinite-calendar-grid.umd.cjs",
+  "module": "./dist/infinite-calendar-grid.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/infinite-calendar-grid.js",
+      "require": "./dist/infinite-calendar-grid.umd.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "dev": "vite demo --config vite.config.demo.ts",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "peerDependencies": {
+    "dayjs": "^1.0.0",
+    "vue": "^3.0.0"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.10",
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vite-plugin-dts": "^3.8.3",
+    "vue-tsc": "^2.0.6"
+  }
+}
